@@ -8,10 +8,13 @@
 
 body{
 	   font-family: 'open sans';
+	 
 	 }
 
+	 	/*PARTE DE IMAGENES SLIDER*/
+
 	 	.slider{
-	 		width: 95%;
+	 		width: 100%;
 	 		margin: auto;
 	 		overflow: hidden;
 	 	}
@@ -59,25 +62,32 @@ body{
 			text-align: center;
 			margin-bottom: 60px;
 		}
-				
 		
+
+		/* inicio servicio descarga*/
 		nav{
+
 			text-align: right;
 			padding: 30px 50px 0 0;
 
 		}
 
 		nav > a{
-			color: #6F4FFB;
+			color: #CF15F7;
 			font-weight: 300;
 			text-decoration: none;
 			margin-right: 10px;
+			
 		}
 
 		nav > a:hover{
 			
 			text-decoration: underline;
 		}
+
+		
+
+			/*parrafo */
 
 		header .textos-header{
 			display: flex;
@@ -92,6 +102,7 @@ body{
 		.textos-header h1{
 			font-size: 50px;
 			color: #FB4F4F;
+			margin-top: 35px;
 		}
 
 		.textos-header h2{
@@ -137,7 +148,7 @@ body{
 			text-align: justify;
 		}
 
-		/*galeria*/
+		/*galeria tipos de libros*/
 
 		.portafolio {
 			background: #f2f2f2;
@@ -261,7 +272,7 @@ body{
 			text-align: justify;
 		}
 
-		/*footer*/
+		/*footer telefono correo, etc*/
 
 		footer{
 			background: #414141;
@@ -279,7 +290,7 @@ body{
 			border-bottom: 1px solid #ccc;
 		}
 
-		.contenedor-foo{
+		.content-foo{
 			text-align: center;
 
 		}
