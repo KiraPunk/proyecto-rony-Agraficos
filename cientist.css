@@ -1,0 +1,72 @@
+
+body{
+	   font-family: 'open sans';
+	 
+	 }
+/* Inicion descarga...*/
+
+nav{
+	text-align: right;
+	padding: 1em;
+}
+
+nav > a{
+	color: #CF15F7;
+	font-weight: 600;
+	text-decoration: none;
+	margin-right: 10px;
+}
+
+nav > a:hover{
+	text-decoration: underline;
+}
+/* Logo superior izquierda*/
+
+.logo {
+	margin-top: -40px;
+
+}
+
+.logo > a{
+	color: #CF15F7;
+	text-decoration: none;
+	padding: 1em;
+	font-weight: 600;
+
+}
+.logo > a:hover{
+	text-decoration: underline;
+}
+
+
+/*titulo */
+
+.titulo-header{
+	text-align: center;
+}
+
+/*imagen*/
+
+.titulo-header > img{
+	width: 30%;
+	transition: 2s;
+}
+
+.titulo-header > img:hover{
+	transform: translateX(250px););
+}
+
+/*estructura general de todo*/
+
+.estructura{
+	margin-right: 100px;
+	margin-left: 100px;
+}
+
+/*subitutlo*/
+
+.pequeño{
+	text-align: justify;
+	padding: 1em;
+}
+

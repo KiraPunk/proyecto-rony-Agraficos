@@ -195,6 +195,10 @@ body{
 			width: 50px;
 		}
 
+		.hover-galeria a{
+			color: #fff;
+		}
+
 		.hover-galeria p{
 			color: #fff;
 		}
@@ -265,6 +269,10 @@ body{
 
 		.servicio-ind h3{
 			margin: 10px 0;
+		}
+
+		.servicio-ind > a{
+			text-decoration: none;
 		}
 
 		.servicio-ind p{

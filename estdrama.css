@@ -1,0 +1,84 @@
+
+	body{
+	   font-family: 'open sans';
+	   
+	 	}
+/* INICIO. DESCAR GRATIS. SERV*/
+		nav{
+
+			text-align: right;
+			padding: 30px 30px 0 0;
+
+		}
+
+		nav > a{
+			color: #CF15F7;
+			font-weight: 300;
+			text-decoration: none;
+			margin-right: 10px;
+			
+		}
+
+		nav > a:hover{
+			
+			text-decoration: underline;
+		}
+		
+
+/*LOGO SUPERIOR IZQUIERDA*/
+		header .logo{
+			text-align: left;
+			font-weight: 300;
+			margin-left: 10px;
+			margin-top: -40px;
+			
+		}
+
+		header .logo:hover{
+			text-decoration: underline;
+		}
+
+
+
+	
+		header .textos-header{
+			display: flex;
+			height: 430;
+			width: 100%;
+			align-items: center;
+			justify-content: center;
+			flex-direction: column;
+			text-align: center;
+
+
+		}
+
+		.imagen {
+			width:500px;
+			height:100px;
+			transition-property: width;
+			transition-duration:5s;
+			transition-delay:1s;
+			transition-timing-function:	ease;
+		}
+		.imagen:hover{
+			width: 300px;
+		}
+
+		.textos-header > p{
+			margin-top: 300px;
+			
+		}
+		.contenido-textos{
+			justify-content: center;
+		}
+
+		
+
+
+
+		
+
+		
+
+		
